@@ -1,12 +1,37 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant weather application built using **React** and **OpenWeatherMap API**. You can search for any Indian city and get the latest weather updates including temperature, sky condition, humidity, and wind speed.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Click here to view live](https://app-weather-vite.netlify.app/)  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔍 Search weather by city name
+- ☀️ Displays real-time temperature and condition (sunny, cloudy, rainy)
+- 🌬️ Shows wind speed and humidity
+- 📱 Responsive design for all devices
+- 🌙 Dark background with glassmorphism effect
+
+---
+
+## 🚀 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Icons:** react-icons (Weather icons from `react-icons/wi`)
+- **API:** [OpenWeatherMap]([https://openweathermap.org/](https://openweathermap.org/api)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/vijay-tech-colab/WeatherApp-react.git
+cd weather-app
+npm install
+npm run dev
